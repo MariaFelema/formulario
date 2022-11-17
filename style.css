@@ -4,7 +4,7 @@ body{
 
 form label {
 	display: block;
-	font-size: 20px;
+	font-size: 30px;
 	color: black;
 }
 form input{
@@ -14,6 +14,6 @@ form input{
 	font-weight: bold;
 }
 table{
-	color: white;
-	font-size: 30px;
+	color: purple;
+	font-size: 20px;
 }
