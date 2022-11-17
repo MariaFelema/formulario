@@ -9,13 +9,13 @@
 <body>
 <h1>FORMULÁRIO DE CADASTRO</h1>
 <main>
-	<form>
+	<form> 
+		<p>Preencha corretamente os dados</p>
+		<br>
+		<br>
 		<label for="nome">NOME</label>
 		<input type="text" name="nome" required>
 		<br>	
-		<label for="endereco">ENDEREÇO</label>
-		<input type="text" name="endereço" required>
-		<br>
 		<label for="data de nasc">DATA DE NASCIMENTO</label>
 		<input type="date" name="data_nasc" required>
 		<br>
@@ -25,10 +25,13 @@
 		<label for="senha_email">SENHA</label>
 		<input type="password" id="senha_email" required>
 		<br>
+		<label for="endereco">ENDEREÇO</label>
+		<input type="text" name="endereço" required>
+		<br>
 		<label for="tfone">TELEFONE</label>
 		<input type="tel" id="tfone" required>
 		<div>
-			<p>ESCREVA OUTRAS INFORMAÇÕES</P>
+			<p>INFORMAÇÕES ADICIONAIS</P>
 		        <textarea cols="20px" rows="20px"></textarea>
 		
 		        <input type="radio" value="telefone" id="circulo-telefone">
@@ -36,6 +39,8 @@
 	
 			<input type="checkbox" id="caixa-whats">
 				<label class="caixa" for="caixa-whats">WHATSAPP</label>
+		<br>
+		<br>
 				<input type="submit" value="ENVIAR RESPOSTAS">
 			</div>
 	</form>	
