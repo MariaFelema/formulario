@@ -14,7 +14,12 @@ form input{
 	font-weight: bold;
 }
 table{
-	blackground: light blue
+	blackground: purple;
 	color: white;
 	font-size: 20px;
 }
+thead{ 
+	background: blue;
+	color: white;
+        font-weight: bold;
+}	
