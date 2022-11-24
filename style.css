@@ -14,11 +14,11 @@ form input{
 	font-weight: bold;
 }
 table{
-	blackground: pink;
-	color: black;
+	blackground: purple;
+	color: white;
 	font-size: 30px;
 }	
-td{ 
-	border: 1px solid #000000;
+table tr td{ 
+	border: 2px solid #000000;
 	boder-color: black;
 }
